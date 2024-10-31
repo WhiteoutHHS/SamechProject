@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System;
-
-public class SodaVendingMachine : VendingMachine
+﻿public class SodaVendingMachine : VendingMachine
 {
     private int sodaStock1;
     private int sodaStock2;
@@ -20,6 +12,11 @@ public class SodaVendingMachine : VendingMachine
         sodaStock3 = initialSoda3;
     }
 
+    public override void BuyProduct()
+    {
+
+    }
+
     public void BuySoda1()
     {
         if (sodaStock1 < 1)
@@ -29,7 +26,7 @@ public class SodaVendingMachine : VendingMachine
         }
 
         sodaStock1--;
-        UpdateSales(1.50m); // цена за Соду 1
+        UpdateSales(SODA1_PRICE);
         Console.WriteLine("Куплена Сода 1.");
     }
 
@@ -42,7 +39,7 @@ public class SodaVendingMachine : VendingMachine
         }
 
         sodaStock2--;
-        UpdateSales(1.75m); // цена за Соду 2
+        UpdateSales(SODA2_PRICE);
         Console.WriteLine("Куплена Сода 2.");
     }
 
@@ -55,7 +52,7 @@ public class SodaVendingMachine : VendingMachine
         }
 
         sodaStock3--;
-        UpdateSales(2.00m); // цена за Соду 3
+        UpdateSales(SODA3_PRICE);
         Console.WriteLine("Куплена Сода 3.");
     }
 
@@ -67,4 +64,25 @@ public class SodaVendingMachine : VendingMachine
 
         Console.WriteLine("Запасы газировки обновлены.");
     }
+
+    public override bool Equals(object obj)
+    {
+        if (obj is SodaVendingMachine machine)
+        {
+            return base.Equals(machine) &&
+                   sodaStock1 == machine.sodaStock1 &&
+                   sodaStock2 == machine.sodaStock2 &&
+                   sodaStock3 == machine.sodaStock3;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(base.GetHashCode(), sodaStock1, sodaStock2, sodaStock3);
+
+
+    }
+
 }
+

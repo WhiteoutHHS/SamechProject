@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
@@ -11,5 +9,8 @@ class Program
         sodaMachine.BuySoda2();
 
         sodaMachine.Restock(5, 5, 5);
+
+        CoffeeMachine coffeeMachine = new CoffeeMachine("Кофейный автомат", 50m);
+
     }
 }

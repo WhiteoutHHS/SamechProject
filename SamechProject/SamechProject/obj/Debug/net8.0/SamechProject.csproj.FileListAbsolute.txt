@@ -1,0 +1,14 @@
+C:\Users\bosni\source\repos\SamechProject\SamechProject\bin\Debug\net8.0\SamechProject.exe
+C:\Users\bosni\source\repos\SamechProject\SamechProject\bin\Debug\net8.0\SamechProject.deps.json
+C:\Users\bosni\source\repos\SamechProject\SamechProject\bin\Debug\net8.0\SamechProject.runtimeconfig.json
+C:\Users\bosni\source\repos\SamechProject\SamechProject\bin\Debug\net8.0\SamechProject.dll
+C:\Users\bosni\source\repos\SamechProject\SamechProject\bin\Debug\net8.0\SamechProject.pdb
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.AssemblyInfoInputs.cache
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.AssemblyInfo.cs
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.csproj.CoreCompileInputs.cache
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.dll
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\refint\SamechProject.dll
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.pdb
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\SamechProject.genruntimeconfig.cache
+C:\Users\bosni\source\repos\SamechProject\SamechProject\obj\Debug\net8.0\ref\SamechProject.dll
